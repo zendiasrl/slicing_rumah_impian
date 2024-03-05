@@ -1,0 +1,54 @@
+:root {
+  --primary: #048853;
+  --sec: #00985b;
+  --white: #f3fff4;
+}
+
+* {
+  /* border: 1px solid white; */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--primary);
+  /* color: black; */
+}
+
+/* navbar */
+
+.buttonhijau {
+  color: var(--sec);
+}
+
+.buttondaftar {
+  font-weight: 300;
+}
+
+/* hero section */
+
+#hero {
+  height: 100vh;
+  width: 100%;
+}
+
+/* section 2 */
+
+#section2 {
+  height: 100vh;
+  width: auto;
+  background-color: var(--white);
+}
+
+.lingkaran {
+  width: 2rem;
+  height: auto;
+  border-radius: 50%;
+  background-color: var(--white);
+}
+
+.lingkaran1 {
+  width: 2rem;
+  height: auto;
+  border-radius: 50%;
+  background-color: var(--sec);
+}
