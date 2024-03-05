@@ -52,3 +52,11 @@ body {
   border-radius: 50%;
   background-color: var(--sec);
 }
+
+/* section 3 */
+
+#section3 {
+  height: 100vh;
+  width: auto;
+  background-color: var(--white);
+}
