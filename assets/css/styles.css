@@ -60,3 +60,46 @@ body {
   width: auto;
   background-color: var(--white);
 }
+
+.imgcover {
+  height: 100%;
+  width: auto;
+  background-size: cover;
+  background-image: url(/assets/img/background-section3.png);
+}
+
+/* section 4 */
+
+#section4 {
+  height: 200vh;
+  width: auto;
+  background-color: var(--white);
+}
+
+#section4 h1 {
+  margin-top: 7rem;
+  color: var(--sec);
+}
+
+.kamar-tidur {
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+.kamar-mandi {
+  font-size: 0.7rem;
+  margin-top: -1rem;
+  padding-left: 2.8rem;
+}
+
+.jarak-1 {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.luas-rumah {
+  font-size: 0.7rem;
+  /* padding-left: 11.5rem;
+  padding-bottom: 15rem; */
+  /* background-color: blue; */
+}
