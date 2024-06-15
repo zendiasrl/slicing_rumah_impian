@@ -103,3 +103,15 @@ body {
   padding-bottom: 15rem; */
   /* background-color: blue; */
 }
+
+/* section 5 */
+
+#section5 {
+  height: 100vh;
+  width: auto;
+  background-color: var(--white);
+}
+
+#section5 h1 {
+  color: var(--sec);
+}
