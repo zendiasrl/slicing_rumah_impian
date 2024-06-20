@@ -115,3 +115,67 @@ body {
 #section5 h1 {
   color: var(--sec);
 }
+
+/* section 6 */
+
+#section6 {
+  height: 100vh;
+  width: auto;
+}
+
+.imgcover1 {
+  position: relative;
+  background-image: url(/assets/img/rumah11.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+}
+
+.imgcover1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the alpha value to control the darkness */
+  z-index: 1;
+}
+
+.custom-mt1 {
+  margin-top: 7.5rem;
+}
+
+.custom-mt2 {
+  margin-top: 9rem;
+}
+
+.custom-h3 {
+  color: var(--sec);
+}
+
+.btn-wide {
+  width: 100%;
+  background-color: var(--sec);
+}
+
+/* footer */
+
+footer {
+  height: 30vh;
+  background-color: black;
+}
+
+footer .custom-mt3 {
+  margin-top: 5rem;
+}
+
+.custom-text {
+  font-weight: 100;
+}
